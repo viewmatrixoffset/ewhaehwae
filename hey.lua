@@ -25,7 +25,7 @@ shared.Moon = {
  
     ['Silent Aim'] = {
         ['Enabled'] = true,
-        ['Mode'] = 'Toggle',
+        ['Mode'] = 'Always',
         ['Hitpart'] = 'Closest Part',
         ['Prediction'] = {
             ['Enabled'] = true,
@@ -88,7 +88,7 @@ shared.Moon = {
     },
  
     ['Target Line'] = {
-        ['Enabled'] = true,
+        ['Enabled'] = false,
         ['Thickness'] = 1.8,
         ['Transparency'] = 0.8,
         ['Visible'] = Color3.fromRGB(255, 85, 127),
@@ -119,14 +119,14 @@ shared.Moon = {
     },
  
     ['Visual Awareness'] = {
-        ['Enabled'] = true,
+        ['Enabled'] = false,
         ['Color'] = Color3.fromRGB(255, 255, 255),
         ['Target Color'] = Color3.fromRGB(0, 255, 0),
     },
  
     ['Hit Visualizer'] = {
         ['Hitsound'] = {
-            ['Enabled'] = true,
+            ['Enabled'] = false,
             ['ID'] = 'rbxassetid://6534948092',
         },
     },
